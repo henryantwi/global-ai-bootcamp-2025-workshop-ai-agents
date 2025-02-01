@@ -14,7 +14,7 @@ Dive into the world of intelligent conversational agents with Azure AI Agent Ser
 75 - 90 minutes
 
 ### Slide Deck
-
+[Download the presentation slide deck](https://globalaibootcamp25.blob.core.windows.net/workshops/globalaibootcamp-workshop-ai-agents.pptx)
 
 ## What you will learn
 By the end of this workshop, you will learn to build an agent app using Azure AI Agent Service, explore its tools, and effectively use instructions to guide the LLM.
