@@ -1,17 +1,29 @@
-These instructions are for self-guided learners who are not part of the AI Tour and do not have access to a pre-configured lab environment. Follow these steps to set up your environment and begin the workshop.
+# Setup
 
-## Introduction
-
-This workshop is designed to teach you about the Azure AI Agents Service and the Python SDK. It consists of multiple labs, each highlighting a specific feature of the Azure AI Agents Service. The labs are meant to be completed in order, as each one builds on the knowledge and work from the previous lab.
+**Follow these steps to set up your environment and begin the workshop.**
 
 ## Prerequisites
 
-1. Access to an Azure subscription. If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/){:target="_blank"} before you begin.
-1. You need a GitHub account. If you don’t have one, create it at [GitHub](https://github.com/join){:target="_blank"}.
+1. Access to an Azure subscription. 
+2. You need a GitHub account. If you don’t have one, create it at [GitHub](https://github.com/join){:target="_blank"}.
+
+### Access to an Azure Subscription
+
+To run the lab you need to deploy some resources deployed in an Azure Subscription. For this there are multiple options.
+
+1. Use your own Azure Subscription
+2. Create a [free account](https://azure.microsoft.com/free/){:target="_blank"} before you begin.
+3. Use an Azure Pass you.
+
+#### Azure Pass activation
+
+1. Ask you Global AI Bootcamp trainer for your event code. This is a 6 digits code.
+2. Navigate to [pass.globalaiboocamp.com](https://pass.globalaiboocamp.com){:target="_blank"}
+3. Follow the instruction on screen.
 
 ## GitHub Codespaces
 
-The preferred way to run this workshop is using GitHub Codespaces. This option provides a pre-configured environment with all the tools and resources needed to complete the workshop.
+The way to run this workshop is using GitHub Codespaces. This provides a pre-configured environment with all the tools and resources needed to complete the workshop.
 
 Select **Open in GitHub Codespaces** to open the project in GitHub Codespaces.
 
@@ -73,23 +85,6 @@ From the VS Code terminal run the following command:
 ```bash
 cd infra && ./deploy.sh
 ```
-
-<!-- ## Project Connection String
-
-Next, we log in to Azure AI Foundry to retrieve the project connection string, which the agent app uses to connect to the Azure AI Agents Service.
-
-1. Navigate to the [Azure AI Foundry](https://ai.azure.com){:target="_blank"} website.
-2. Sign in with your Azure subscription **Username** and **Password**.
-3. Read the introduction to the Azure AI Foundry and click **Got it**.
-4. Ensure you are on the AI Foundry home page. Click the **AI Foundry** tab in the top left corner.
-
-    ![AI Foundry home page](./media/ai-foundry-home.png){:width="200"}
-
-5. Select the **agent-workshop** project.
-6. Review the introduction guide and click **Close**.
-7. Locate the **Project details** section, click the **Copy** icon to copy the **Project connection string**.
-
-    ![Copy connection string](./media/project-connection-string.png){:width="500"} -->
 
 ## Workshop Configuration
 

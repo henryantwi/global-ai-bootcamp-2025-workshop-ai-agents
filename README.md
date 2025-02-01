@@ -10,4 +10,4 @@ By the end of this workshop, you will learn to build an agent app using Azure AI
 
 ## Documentation
 
-See the full documentation at [Contoso Sales AI Agent](https://aka.ms/agent-service-workshop-docs)
+See the full documentation at [Build your first agent with Azure AI Agent Service](https://workshop-ai-agents.globalaibootcamp.com)
