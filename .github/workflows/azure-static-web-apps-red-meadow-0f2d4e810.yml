@@ -19,12 +19,9 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - run: pip install mkdocs-material mkdocs-glightbox
-      - run: mkdocs gh-deploy --force --config-file docs/mkdocs.yml
-
       - run: pip install -r docs/requirements.txt
       - run: cd docs
-      - run: mkdocs build
+      - run: mkdocs build --config-file docs/mkdocs.yml
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
