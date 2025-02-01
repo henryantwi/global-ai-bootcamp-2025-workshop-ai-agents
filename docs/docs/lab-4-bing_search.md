@@ -18,7 +18,7 @@ Follow these steps to create a Grounding with Bing Search Resource:
         You may need to sign in to your Azure account and or clear the welcome screen to access the Azure portal.
 
 1. Select **Create**.
-1. Select the **rg-agent-workshop** resource group from the drop-down list.
+1. Select the **rg-contoso-agent-workshop** resource group from the drop-down list.
 1. Name the resource as follows:
 
     ```text
