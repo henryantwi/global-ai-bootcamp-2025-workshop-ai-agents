@@ -1,7 +1,7 @@
-site_name: Build your first agent with Azure AI Agent Service
+site_name: Build an agent with Azure AI Agent Service
 
 nav:
-  - Introduction: Introduction.md
+  - Introduction: index.md
   - Setup: setup.md
   - Lab 1 Function Calling Power: lab-1-function_calling.md
   - Lab 2 Intro to the Code Interpreter: lab-2-code_interpreter.md
@@ -9,10 +9,10 @@ nav:
   - Lab 4 Grounding with Bing Search: lab-4-bing_search.md
   - Lab 5 Instrumentation: lab-5-instrumentation.md
   - Resources:
-    - Agent Service Introduction: index.md
+    - Agent Service Introduction: introduction.md
     - Solution Overview: architecture.md
     - Security considerations: security.md
-    - Troubleshooting troubleshooting.md
+    - Troubleshooting: troubleshooting.md
     - Summary: summary.md
 
 

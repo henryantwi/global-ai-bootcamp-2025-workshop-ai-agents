@@ -1,34 +1,24 @@
-# Build your first agent with Azure AI Agent Service
+# Build an agent with Azure AI Agent Service
 
-Imagine you are a sales manager at Contoso, a multinational retail company that sells outdoor equipment. You need to analyze sales data to find trends, understand customer preferences, and make informed business decisions. To help you, Contoso has developed a conversational agent that can answer questions about your sales data.
+**Imagine you are a sales manager at Contoso, a multinational retail company that sells outdoor equipment. You need to analyze sales data to find trends, understand customer preferences, and make informed business decisions. To help you, Contoso has developed a conversational agent that can answer questions about your sales data.**
+
+This workshop is designed to teach you about the Azure AI Agents Service and the Python SDK. It consists of multiple labs, each highlighting a specific feature of the Azure AI Agents Service. The labs are meant to be completed in order, as each one builds on the knowledge and work from the previous lab.
+
+This workshop is for the [Global AI Bootcamp 2025](https://globalai.community/bootcamp)
 
 
-## What is an LLM-Powered AI Agent
+## Description
+Dive into the world of intelligent conversational agents with Azure AI Agent Service, a seamless blend of service and SDK that simplifies the development of robust AI-driven solutions. In this hands-on workshop, you’ll learn to create a powerful agent capable of answering sales-related queries, performing data analysis, generating visualizations, and integrating external data sources to deliver enhanced business insights.
 
-An AI Agent is semi-autonomous software designed to achieve a given goal without requiring predefined steps or processes. Instead of following explicitly programmed instructions, the agent determines how to accomplish the task dynamically.
+### Duration
+75 - 90 minutes
 
-For example, if a user asks, "**Show the total sales by region as a pie chart**", the app doesn't rely on predefined logic for this specific request. Instead, a Large Language Model (LLM) interprets the request, manages the conversation flow and context, and orchestrates the necessary actions to produce the desired pie chart based on the regional sales data.
+### Slide Deck
 
-Unlike traditional applications, where developers define the logic and workflows to support business processes, AI Agents shift this responsibility to the LLM. In these systems, prompt engineering, clear instructions, and tool development are critical to ensuring the app performs as intended.
 
-## What is the Azure AI Agent Service
+## What you will learn
+By the end of this workshop, you will learn to build an agent app using Azure AI Agent Service, explore its tools, and effectively use instructions to guide the LLM.
 
-The Azure AI Agent Service is now in public preview, offering a fully managed cloud service with SDKs for [Python](https://learn.microsoft.com/azure/ai-services/agents/quickstart?pivots=programming-language-python-azure){:target="_blank"} and [C#](https://learn.microsoft.com/azure/ai-services/agents/quickstart?pivots=programming-language-csharp){:target="_blank"}. It simplifies AI agent development, reducing complex tasks like function calling to just a few lines of code.
 
-!!! info "Function calling allows you to connect LLMs to external tools and systems. This is useful for many things such as empowering AI agents with capabilities, or building deep integrations between your applications and LLMs."
-
-The Azure AI Agent Service offers several advantages over traditional agent platforms:
-
-- **Rapid Deployment**: Optimized SDK for fast deployment, letting developers focus on building agents.
-- **Scalability**: Designed to handle varying user loads without performance issues.
-- **Custom Integrations**: Supports Function Calling for extending agent capabilities.
-- **Built-in Tools**: Includes Fabric, SharePoint, Azure AI Search, and Azure Storage for quick development.
-- **RAG-Style Search**: Features a built-in vector store for efficient file and semantic search.
-- **Conversation State Management**: Maintains context across multiple interactions.
-- **AI Model Compatibility**: Works with various AI models.
-
-Learn more about the Azure AI Agent Service in the [Azure AI Agent Service documentation](https://learn.microsoft.com/azure/ai-services/agents/overview){:target="_blank"}. In particular, read about the [components of agents](https://learn.microsoft.com/azure/ai-services/agents/concepts/agents#agents-components){:target="_blank"}.
-
-## AI Agent Frameworks
-
-Popular agent frameworks include LangChain, Semantic Kernel, and CrewAI. What distinguishes the Azure AI Agent Service is its seamless integration capabilities and an SDK optimized for rapid deployment. In complex multi-agent scenarios, solutions will combine SDKs like Semantic Kernel and AutoGen with the Azure AI Agent Service to build robust and scalable systems.
+## Documentation
+See the full documentation at [Build your first agent with Azure AI Agent Service](https://workshop-ai-agents.globalaibootcamp.com)

@@ -7,19 +7,22 @@
 1. Access to an Azure subscription. 
 2. You need a GitHub account. If you don’t have one, create it at [GitHub](https://github.com/join){:target="_blank"}.
 
-### Access to an Azure Subscription
+
+## Access to an Azure Subscription
 
 To run the lab you need to deploy some resources deployed in an Azure Subscription. For this there are multiple options.
 
 1. Use your own Azure Subscription
 2. Create a [free account](https://azure.microsoft.com/free/){:target="_blank"} before you begin.
-3. Use an Azure Pass you.
+3. Use an Azure Pass you received from your trainer.
 
-#### Azure Pass activation
 
-1. Ask you Global AI Bootcamp trainer for your event code. This is a 6 digits code.
-2. Navigate to [pass.globalaiboocamp.com](https://pass.globalaiboocamp.com){:target="_blank"}
-3. Follow the instruction on screen.
+!!! note
+    #### Azure Pass activation
+
+    1. Ask you Global AI Bootcamp trainer for your event code. This is a 6 digits code.
+    2. Navigate to [pass.globalaiyboocamp.com](https://pass.globalaibootcamp.com){:target="_blank"}
+    3. Follow the instruction on screen.
 
 ## GitHub Codespaces
 
