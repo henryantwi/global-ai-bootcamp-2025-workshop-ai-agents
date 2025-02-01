@@ -96,6 +96,7 @@ async def initialize() -> tuple[Agent, AgentThread]:
 
         # Replace the placeholder with the database schema string
         instructions = instructions.replace("{database_schema_string}", database_schema_string)
+        instructions = instructions.replace("{current_date}", date.today().strftime("%Y-%m-%d"))
 
         print("Creating agent...")
         agent = await project_client.agents.create_agent(
