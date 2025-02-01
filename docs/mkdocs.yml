@@ -1,12 +1,12 @@
 site_name: Build your first Agent
 
 nav:
-  - Agent Service Introduction: index.md
-  - Solution Overview: architecture.md
-  - Security considerations: security.md
-  - Workshop Introduction:
-    - AI Tour Attendees: introduction-ai-tour.md
-    - Self-Guided Learners: introduction-self-guided.md
+  - Introduction: Introduction.md
+  - Setup: setup.md
+  - Background information:
+    - Agent Service Introduction: index.md
+    - Solution Overview: architecture.md
+    - Security considerations: security.md
   - Lab 1 Function Calling Power: lab-1-function_calling.md
   - Lab 2 Intro to the Code Interpreter: lab-2-code_interpreter.md
   - Lab 3 Grounding with Documents: lab-3-file_search.md
@@ -14,8 +14,6 @@ nav:
   - Lab 5 Instrumentation: lab-5-instrumentation.md
   - Summary: summary.md
   - Resources: resources.md
-  # - Deployment: deployment.md
-  # - Troubleshooting: troubleshooting.md
 
 
 plugins:
