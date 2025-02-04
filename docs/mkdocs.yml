@@ -6,8 +6,7 @@ nav:
   - Lab 1 Function Calling Power: lab-1-function_calling.md
   - Lab 2 Intro to the Code Interpreter: lab-2-code_interpreter.md
   - Lab 3 Grounding with Documents: lab-3-file_search.md
-  - Lab 4 Grounding with Bing Search: lab-4-bing_search.md
-  - Lab 5 Instrumentation: lab-5-instrumentation.md
+  - Lab 4 Instrumentation: lab-4-instrumentation.md
   - Resources:
     - Agent Service Introduction: introduction.md
     - Solution Overview: architecture.md
