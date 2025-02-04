@@ -13,9 +13,6 @@ STORAGE_NAME="agentservicestorage"
 AI_SERVICES_NAME="agent-workshop"
 MODEL_CAPACITY=140
 
-# Register the Bing Search resource provider
-az provider register --namespace 'Microsoft.Bing'
-
 # Create the resource group
 az group create --name "$RG_NAME" --location "$RG_LOCATION"
 
@@ -37,7 +34,6 @@ if [ -f output.json ]; then
   AI_PROJECT_NAME=$(jq -r '.properties.outputs.aiProjectName.value' output.json)
   RESOURCE_GROUP_NAME=$(jq -r '.properties.outputs.resourceGroupName.value' output.json)
   SUBSCRIPTION_ID=$(jq -r '.properties.outputs.subscriptionId.value' output.json)
-  BING_GROUNDING_NAME=$(jq -r '.properties.outputs.bingGroundingName.value' output.json)
 
   # Run the Azure CLI command to get discovery_url
   DISCOVERY_URL=$(az ml workspace show -n "$AI_PROJECT_NAME" --resource-group "$RESOURCE_GROUP_NAME" --query discovery_url -o tsv)
@@ -57,7 +53,6 @@ if [ -f output.json ]; then
     # Write to the .env file
     {
       echo "PROJECT_CONNECTION_STRING=$PROJECT_CONNECTION_STRING"
-      echo "BING_CONNECTION_NAME=\"Grounding-with-Bing-Search\""
       echo "MODEL_DEPLOYMENT_NAME=\"$MODEL_NAME\""
     } > "$ENV_FILE_PATH"
 

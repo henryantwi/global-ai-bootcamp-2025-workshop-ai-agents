@@ -97,6 +97,5 @@ Your **.env** file should look similar to this but with your project connection 
 
 ```python
 MODEL_DEPLOYMENT_NAME="gpt-4o"
-BING_CONNECTION_NAME="Grounding-with-Bing-Search"
 PROJECT_CONNECTION_STRING="<your_project_connection_string>"
 ```
