@@ -39,7 +39,6 @@ A [vector store](https://en.wikipedia.org/wiki/Vector_database){:target="_blank"
     INSTRUCTIONS_FILE = "instructions/instructions_function_calling.txt"
     INSTRUCTIONS_FILE = "instructions/instructions_code_interpreter.txt"
     INSTRUCTIONS_FILE = "instructions/instructions_file_search.txt"
-    # INSTRUCTIONS_FILE = "instructions/instructions_bing_grounding.txt"
 
 
     async def add_agent_tools():
@@ -61,10 +60,6 @@ A [vector store](https://en.wikipedia.org/wiki/Vector_database){:target="_blank"
         file_search_tool = FileSearchTool(vector_store_ids=[vector_store.id])
         toolset.add(file_search_tool)
 
-        # Add the Bing grounding tool
-        # bing_connection = await project_client.connections.get(connection_name=BING_CONNECTION_NAME)
-        # bing_grounding = BingGroundingTool(connection_id=bing_connection.id)
-        # toolset.add(bing_grounding)
     ```
 
 ### Review the Instructions
