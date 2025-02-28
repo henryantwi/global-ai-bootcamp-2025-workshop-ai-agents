@@ -19,6 +19,5 @@ Dive into the world of intelligent conversational agents with Azure AI Agent Ser
 ## What you will learn
 By the end of this workshop, you will learn to build an agent app using Azure AI Agent Service, explore its tools, and effectively use instructions to guide the LLM.
 
-
 ## Documentation
 See the full documentation at [Build your first agent with Azure AI Agent Service](https://workshop-ai-agents.globalaibootcamp.com)
