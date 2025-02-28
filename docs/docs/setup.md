@@ -113,3 +113,5 @@ PROJECT_CONNECTION_STRING="<your_project_connection_string>"
 !!! note
     #### Sharing the **.env** file
     If you are sharing the Azure pass resources and you just deployed the Azure resources in the previous steps? This is the time to share the contents of the **.env** file with your fellow workshop participants. 🙏
+
+    When the contents of the **.env** file is shared with you, it is as easy as manually creating a **.env** file in the **src/workshop** folder. There is already a **.env.sample** file there to hint towards the correct location. Create the new file and paste in the contents (MODEL_DEPLOYMENT_NAME & PROJECT_CONNECTION_STRING) that was shared with you and save the file. Make sure the entire filename is **.env**.
