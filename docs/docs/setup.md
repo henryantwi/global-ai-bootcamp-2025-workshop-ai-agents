@@ -17,22 +17,12 @@ To run the lab you need to deploy some resources deployed in an Azure Subscripti
 3. Use an Azure Pass you received from your trainer.
 
 !!! note
-    #### Azure Pass activation
+    #### Azure Subscription activation
 
     1. Ask you Global AI Bootcamp trainer for your event code. This is a 6 digits code.
-    2. Navigate to [www.microsoftazurepass.com](https://www.microsoftazurepass.com/){:target="_blank"}
+    2. Navigate to [aka.ms/JoinEduLab](https://aka.ms/JoinEduLab){:target="_blank"}
     3. Follow the instructions on screen.
 
-!!! warning
-    #### Sharing Azure Pass resources
-
-    Depending on popular demand and availability of Azure passes, it can be necessary to share the created resources for this workshop. Each iteration of following this workshop will only consume a very small amount of credits and sharing the resources will in no way take away from the workshop experience.  
-
-    Please check with your bootcamp organizer if these resources need to be shared.
-
-    You can share the resources by sharing the contents of the **.env** file created in the [Deploy the Azure Resources](#deploy-the-azure-resources) step below with your fellow workshop participants.
-
-    When using these shared resources you do **not** have to deploy the Azure resources as mentioned below. Skip that step and manually create a **.env** file in the **src/workshop** folder.
 
 ## GitHub Codespaces
 
