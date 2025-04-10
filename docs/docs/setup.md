@@ -4,9 +4,26 @@
 
 ## Prerequisites
 
-1. Access to an Azure subscription. 
-2. You need a GitHub account. If you don’t have one, create it at [GitHub](https://github.com/join){:target="_blank"}.
+### Getting Your Accounts Ready
 
+We'll be using Microsoft tools and services, so there are a couple of quick setup steps.
+
+1. Microsoft Account Needed:
+
+    You'll need a Microsoft account for the workshop activities.
+    Don't worry about creating a new email! You can absolutely use your existing Gmail, company email, or even your GitHub profile. Just head to [Microsoft Account](https://account.microsoft.com/) and sign in or create an account using your preferred method.
+
+2. Secure Access with Microsoft Authenticator:
+
+    To keep things secure (especially when using services like Azure), we'll be using Multi-Factor Authentication (MFA). This is standard practice (BCP) for protecting accounts.  
+    The easiest way to handle this is with the Microsoft Authenticator app on your phone.  
+    Please install it and link it to your Microsoft account before the workshop starts. It makes verifying your sign-ins quick and secure.  
+    You can find it here:  
+
+    - Android users: [Microsoft Authenticator on Google Play Store](https://play.google.com/store/apps/details?id=com.azure.authenticator)  
+    - iPhone users: [Microsoft Authenticator on Apple App Store](https://apps.apple.com/app/microsoft-authenticator/id983156458)
+
+3. You need a GitHub account. If you do not have one, create it at [GitHub](https://github.com/join){:target="_blank"}.
 
 ## Access to an Azure Subscription
 
@@ -22,7 +39,6 @@ To run the lab you need to deploy some resources deployed in an Azure Subscripti
     1. Ask you Global AI Bootcamp trainer for your event code. This is a 6 digits code.
     2. Navigate to [aka.ms/JoinEduLab](https://aka.ms/JoinEduLab){:target="_blank"}
     3. Follow the instructions on screen.
-
 
 ## GitHub Codespaces
 
